@@ -58,7 +58,7 @@ class NutirtionalRepositorySql implements NutritionalRepository
         $foods['current_page'] = $foodsTemp['current_page'];
         $foods['nextPageUrl'] = $foodsModel->nextPageUrl();
         $foods['lastPage'] = $foodsModel->lastPage();
-        $foods['perPage'] = $foodsModel->lastPage();
+        $foods['perPage'] = $foodsModel->perPage();
         $foods['data'] = $foodsTemp['data'];
 
         return $foods;

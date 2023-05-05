@@ -96,4 +96,5 @@ imported_t
 - main_category
 - image_url
 
+[Video explicativo](https://www.loom.com/embed/72d317b33dfc4a708343c3c8f622570a)
 > This is a challenge by [Coodesh](https://coodesh.com/)
