@@ -58,7 +58,6 @@ class AtualizarDados extends Command
                 closedir($diretorio);
             }
 
-            return true;
         } catch (Exception $e) {
             ImportLog::create([
                 "status" => false,
@@ -70,8 +69,6 @@ class AtualizarDados extends Command
 
     private function dowload()
     {
-        return true;
-
         try {
             foreach ($this->lista_arquivo() as $value) {
                 if ($value != '') {
